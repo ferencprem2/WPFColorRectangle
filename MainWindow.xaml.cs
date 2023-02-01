@@ -64,9 +64,6 @@ namespace WpfApp1
             {
                 itemsInList = lbColors.SelectedItem.ToString().Split(';');
             }
-            redLabel.Content = itemsInList[0];
-            greenLabel.Content = itemsInList[1];
-            blueLabel.Content = itemsInList[2];
             sliderRed.Value = Convert.ToByte(itemsInList[0]);
             sliderGreen.Value = Convert.ToByte(itemsInList[1]);
             sliderBlue.Value = Convert.ToByte(itemsInList[2]);
